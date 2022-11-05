@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#B933C139"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/topheader2"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Planting and tending trees"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+
+        />
+
+
+</LinearLayout>

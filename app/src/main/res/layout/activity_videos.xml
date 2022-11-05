@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="▶️ আগস্ট মাসে সবজি চাষ:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        >
+
+    </TextView>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="UeNVIOpLzYw"
+        app:autoPlay="false"
+        app:showFullScreenButton="true" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="▶️ মিশ্র ফল চাষ পদ্ধতি:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        >
+
+    </TextView>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="R_KKSHS03B8"
+        app:autoPlay="false"
+        app:showFullScreenButton="true" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="▶️ ফুল চাষ পদ্ধতি:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        >
+
+    </TextView>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="63NAnR1H8YA"
+        app:autoPlay="false"
+        app:showFullScreenButton="true" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="▶️ টবের গাছের পরিচর্যা:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                >
+
+            </TextView>
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="2g1qBfBOOmQ"
+                app:autoPlay="false"
+                app:showFullScreenButton="true" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="▶️ ৯ টি ইনডোর প্লান্টের পরিচয় এবং পরিচর্যা:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                >
+
+            </TextView>
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="28tn-mpLsVI"
+                app:autoPlay="false"
+                app:showFullScreenButton="true" />
+
+
+
+
+        </LinearLayout>
+
+
+</ScrollView>
+
+
+</LinearLayout>
